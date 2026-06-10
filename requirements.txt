@@ -3,6 +3,13 @@ chromadb>=0.6.0
 groq==0.15.0
 python-dotenv==1.0.1
 
+# Stage 1 — ingestion
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+
+# Stage 2 — chunking
+tiktoken>=0.7.0
+
 # Query interface — add whichever you use for Milestone 5:
 # gradio>=6.9.0
 # streamlit>=1.40.0
